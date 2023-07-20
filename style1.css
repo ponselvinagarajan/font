@@ -1,0 +1,56 @@
+<style>*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial,sans-serif;
+	
+}
+/*---------------------------
+course card----------------*/
+.card-container{
+	display:flex;
+}
+.card{
+	overflow:hidden;
+	width:33.33%;
+	border:solid 2px grey;
+}
+.card-image{
+	overflow:hidden;
+	bottom:0;
+	padding:20px;
+}
+.card-image > img {
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+	border-radius:10px;
+}
+.card-content{
+	padding:2px;
+	margin-left:20px;
+	margin-bottom:20px;
+	color:gray;
+	
+}
+.card-contet > h3{
+	padding:10px;
+	margin:0;
+	background-color:white;
+	
+	
+}
+.card-content > p {
+	font-size:20px;
+	color:black;
+}
+a{
+    display:line-block;
+	border-radius:5px;
+	color:white;
+	background-color:black;
+	margin-bottom:10px;
+	padding:5px;
+	text-decoration:none;
+	
+}
